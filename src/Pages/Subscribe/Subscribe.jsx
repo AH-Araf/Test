@@ -2,7 +2,7 @@ import './Subscribe.css'
 
 const Subscribe = () => {
     return (
-        <div className='subscribe-main py-10 pb-12'>
+        <div data-aos="zoom-in"  className='subscribe-main py-10 pb-12'>
             <div>
                 <h1  className=' text-3xl font-semibold'>Subscribe our newsletter</h1>
                 <p className='text-sm font-semibold'>Browse local restaurants and businesses for delivery by entering your address blow.</p>

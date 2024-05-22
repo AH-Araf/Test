@@ -1,7 +1,7 @@
 import './Home.css'
 import homeImg from '../../assets/homeImg.png'
 import ps from '../../assets/ps.png'
-import as from '../../assets/as.png'
+import aps from '../../assets/as.png'
 
 const Home = () => {
     return (
@@ -16,7 +16,7 @@ const Home = () => {
 
                 <div className='mt-4 flex gap-8 items-center'>
                     <div className='flex items-center hover:bg-slate-300 bg-slate-200 px-2 rounded-lg'>
-                        <img className='h-10 w-9' src={as} alt="" />
+                        <img className='h-10 w-9' src={aps} alt="" />
                         <div>
                             <small>Download on the</small>
                             <p className='ms-1 font-semibold'>App Store</p>

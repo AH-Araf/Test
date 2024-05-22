@@ -1,0 +1,36 @@
+.footer-body {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.xyz {
+    visibility: hidden;
+}
+
+.f-bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width:600px) {
+    .footer-body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .abc {
+        visibility: hidden;
+    }
+
+    .xyz {
+        visibility: visible;
+        margin-bottom: 60px;
+    }
+
+    .f-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

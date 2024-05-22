@@ -1,5 +1,5 @@
 .main-body{
-  margin: 0px 300px;
+  margin: 0px 280px;
 }
 .main-b{
   background-color: lavender;
@@ -16,9 +16,21 @@
   }
 }
 
-@media only screen and (min-width:881px) and (max-width:1260px) {
+@media only screen and (min-width:881px) and (max-width:1360px) {
   .main-body {
     margin: 0px 100px;
+  }
+}
+
+@media only screen and (min-width:1361px) and (max-width:1660px) {
+  .main-body {
+    margin: 0px 300px;
+  }
+}
+
+@media only screen and (min-width:1800px) {
+  .main-body {
+    margin: 0px 450px;
   }
 }
 
