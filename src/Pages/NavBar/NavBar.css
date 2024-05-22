@@ -1,0 +1,9 @@
+.nav-pizza{
+    font-size: 30px;
+    writing-mode: vertical-rl;
+    transform: rotate(305deg);
+}
+
+@media only screen and (max-width:600px) {
+   
+}

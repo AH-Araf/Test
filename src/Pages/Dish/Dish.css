@@ -1,0 +1,44 @@
+.dish-sec-1 {
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+}
+
+.dish-sec-2 {
+    display: flex;
+    justify-content: start;
+    gap: 40px;
+}
+
+.marg-right {
+    margin-right: 40px;
+}
+
+.marg-left {
+    margin-left: 40px;
+}
+
+@media only screen and (max-width:660px) {
+    .dish-sec-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dish-sec-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .marg-right {
+        margin-right: 0px;
+    }
+
+    .marg-left {
+        margin-left: 0px;
+    }
+}
